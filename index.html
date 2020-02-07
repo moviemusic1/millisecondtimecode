@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>millisecondcode</title>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet"> 
+<style>
+html, body {
+width: 100%;
+font-family: 'Playfair Display', sans-serif;
+font-weight: 400;
+}
+
+h1 {
+font-weight: 700;
+}
+
+h2 {
+font-weight: 400;
+}
+
+#copyinput {
+padding: 15px 20px;
+border: none;
+font-family: 'Playfair Display', sans-serif;
+font-size: 18px;
+background: #202020;
+border-radius: 2px;
+color: white;
+margin: 10px;
+transition: 250ms;
+}
+
+#copyinput:hover {
+background: #000;
+color: #f8f8f8;
+}
+
+.copybtn {
+padding: 15px 20px;
+background: #202020;
+border-radius: 2px;
+border: none;
+color: white;
+margin: 10px;
+cursor: pointer;
+transition: 250ms;
+}
+
+.copybtn:hover {
+background: #000;
+color: #f8f8f8;
+}
+</style>
+</head>
+<body>
+<center><h1>Get the timecode!</h1><h2 class="time">Time loading...</h2><input type="input" id="copyinput" placeholder="Active timecode"><br><input type="button" class="copybtn" value="Get active timecode"></center>
+<script>
+document.querySelector('.time').innerHTML = Date.now();
+setInterval(function() {document.querySelector('.time').innerHTML = Date.now();},10);
+document.querySelector('.copybtn').addEventListener('click', function() {
+document.querySelector('#copyinput').value = Date.now();
+});
+</script>
+</body>
+</html>
