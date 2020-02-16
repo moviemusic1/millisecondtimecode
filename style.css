@@ -3,6 +3,7 @@ html, body {
   font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   background: #f8f8f8;
+  overflow-x: hidden;
 }
 
 h1 {
