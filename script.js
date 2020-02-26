@@ -8,5 +8,5 @@ document.querySelector('#copyinput').value = Date.now();
 
 document.querySelector('.timebtn').addEventListener('click', function() {
 	timecode = new Date(Number(document.querySelector('.timeinput').value));
-	document.querySelector('#converttimeh4').innerHTML = timecode.toTimeString();
+	document.querySelector('#converttimeh4').innerHTML = timecode.toUTCString();
 });
