@@ -14,7 +14,7 @@ h2 {
   font-weight: 400;
 }
 
-#copyinput {
+#copyinput, .timeinput {
   padding: 15px 20px;
   border: none;
   font-family: 'Montserrat', sans-serif;
@@ -27,11 +27,11 @@ h2 {
   box-shadow: 0px 4px 10px rgba(0,0,0,0.125);
 }
 
-#copyinput:hover {
+#copyinput:hover, .timeinput:hover {
   box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
 }
 
-.copybtn {
+.copybtn, .timebtn {
   padding: 15px 20px;
   background: #fff;
   border-radius: 2px;
@@ -43,6 +43,6 @@ h2 {
   box-shadow: 0px 4px 10px rgba(0,0,0,0.125);
 }
 
-.copybtn:hover {
+.copybtn:hover, .timebtn:hover {
   box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
 }
