@@ -6,9 +6,6 @@
 
 html, body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
   background: rgb(20, 20, 30);
   color: white;
   cursor: default;
