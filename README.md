@@ -20,7 +20,7 @@ Examples for getting the timestamp:
 
 Example for converting a timestamp back to a date:
 
-`python3 millitime.py give `
+`python3 millitime.py give 9466848000`
 
 
 ### plans for this project

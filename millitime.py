@@ -15,10 +15,10 @@ def get():
 
 def give(args):
     if '.' in args[2]:
-        timestamp = int(args[2].split('.')[0])
+        timestamp = int(''.join(args[2].split('.')))
     else:
         timestamp = int(args[2])
-    time = datetime.utcfromtimestamp(timestamp).strftime('%m %d %Y (%H:%M:%S)').split(' ')
+    time = datetime.utcfromtimestamp(timestamp / 10).strftime('%m %d %Y (%H:%M:%S)').split(' ')
     time[0] = months[int(time[0])-1]
     time[1] = time[1] + rth(int(time[1]))
     time = ' '.join(time)
