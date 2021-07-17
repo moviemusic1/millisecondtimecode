@@ -1,12 +1,16 @@
 document.querySelector('.time').innerHTML = (Date.now() / 100);
 
-setInterval(function() {document.querySelector('.time').innerHTML = (Date.now() / 100);},10);
+setInterval(() => {
+	if(!(document.activeElement === document.querySelector('.time'))) {
+		document.querySelector('.time').value = (Date.now() / 100);
+		timecode = new Date(Number(document.querySelector('.time').value) * 100);
+		document.querySelector('#converttimeh4').innerHTML = timecode.toUTCString();
+	}
+}, 20);
 
-document.querySelector('.copybtn').addEventListener('click', function() {
-	document.querySelector('#copyinput').value = Date.now();
-});
-
-document.querySelector('.timebtn').addEventListener('click', function() {
-	timecode = new Date(Number(document.querySelector('.timeinput').value));
-	document.querySelector('#converttimeh4').innerHTML = timecode.toUTCString();
+document.querySelector('.time').addEventListener('keydown', e => {
+	if(e.keyCode == 13) {
+		timecode = new Date(Number(document.querySelector('.time').value) * 100);
+		document.querySelector('#converttimeh4').innerHTML = timecode.toUTCString();
+	}
 });

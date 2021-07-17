@@ -27,4 +27,4 @@ Example for converting a timestamp back to a date:
 
 - giving 'millitime-cli' its command (`millitime`)
 
-- redesigning web version
+- making web version responsive
