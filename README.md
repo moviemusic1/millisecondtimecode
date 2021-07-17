@@ -1,5 +1,6 @@
-# millisecondtimecode
+# millitime
 
-This is a very simple little script which lets you copy the active timecode, you can use it to copy the date when you have finished a project and you want to know when you made the project ;).
+This project lets you copy the unix timestamp of the current moment,
+you can use this e.g. to still know later, when you were done with a project.
 
-[You can use it directly in your browser.](https://lymnyx.github.io/millisecondtimecode/)
+Currently, there is a [version right in/for your browser](https://lymnyx.github.io/millisecondtimecode/) (written in JavaScript) and one for your terminal (written in Python).
