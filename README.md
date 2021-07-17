@@ -25,11 +25,9 @@ Example for converting a timestamp back to a date:
 
 ### plans for this project
 
-- giving 'decitime-cli' its command (`decitime`) (workaround: using my project [pthdrp](https://github.com/lymnyx/pthdrp) for this)
+- giving 'decitime-cli' its command (`decitime`) (workaround for the moment: using my project [pthdrp](https://github.com/lymnyx/pthdrp) for this)
 
 - making web version responsive
-
-- correcting and improving a few things
 
 ### license
 
