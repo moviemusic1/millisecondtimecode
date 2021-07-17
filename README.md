@@ -30,3 +30,7 @@ Example for converting a timestamp back to a date:
 - making web version responsive
 
 - correcting and improving a few things
+
+#### license
+
+GNU GPLv3
