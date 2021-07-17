@@ -1,6 +1,6 @@
 # decitime
 
-This tiny, lightweight project lets you copy a timestamp of the current moment, also converting a timestamp back to a date is possible too.
+This tiny, lightweight project lets you copy the unix timestamp of the current moment, also converting a timestamp back to a date is possible too.
 
 
 You can use this e.g. to still know later, when you were done with a project.
