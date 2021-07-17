@@ -1,20 +1,13 @@
 @font-face {
-        font-family: 'Montserrat';
-        src: url('fonts/Montserrat-Bold.ttf');
-        font-weight: 800;
+  font-family: "Montserrat";
+  src: url("font.ttf");
+  font-weight: 800;
 }
-
 html, body {
-  font-family: 'Montserrat', sans-serif;
-  background: rgb(20, 20, 30);
-  color: white;
+  font-family: "Montserrat", sans-serif;
+  background: #14141e;
   cursor: default;
   user-select: none;
-}
-
-h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
 }
 
 .middle {
@@ -25,26 +18,27 @@ h1, h2, h3, h4 {
   font-size: 30px;
   letter-spacing: 2px;
 }
-
 .middle input {
   font-size: 50px;
   font-weight: bold;
   padding: 20px 30px;
   margin: 0;
-  background: rgb(30,30,40);
-  color: rgb(140,40,50);
-  font-family: 'Montserrat', sans-serif;
+  background: #1e1e28;
+  color: #8c2832;
+  font-family: "Montserrat", sans-serif;
   border: none;
   display: block;
 }
-
 .middle input::selection {
-  background: rgb(140,40,50);
-  color: rgb(30,30,40);
+  background: #8c2832;
+  color: #1e1e28;
 }
-
 .middle h4 {
   opacity: 0.6;
   font-size: 25px;
+  margin: 0;
   padding: 20px 40px;
+  color: white;
 }
+
+/*# sourceMappingURL=styles.css.map */
