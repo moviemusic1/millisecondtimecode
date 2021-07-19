@@ -31,4 +31,4 @@ Example for converting a timestamp back to a date:
 
 ### license
 
-This project is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
